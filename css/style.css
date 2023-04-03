@@ -1,0 +1,333 @@
+body{
+    background-color: #ededed63 !important;
+
+}
+.bannar{
+    position: relative;
+    background-image: url(../images/bannar\ bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    z-index: 0;
+    margin-bottom: 150px;
+}
+.bannar::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0%;
+    top: 0px;
+    border-top: 100vh solid red;
+    border-left: 136vh solid transparent;
+    z-index: -1;
+}
+.bannar nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+.bannar nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+.bannar nav ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.bannar nav ul li a:hover{
+    color: #e8e8e8;
+}
+.bannar .nav-item .nav-link{
+    position: relative;
+    padding: 0px !important;
+}
+.bannar .nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    bottom: 0px;
+    left: 50%;    
+    
+    transform: translate(-50%, 0%);
+    transition: .4s all ease-in-out;
+}
+.bannar .nav-item:hover .nav-link::after{
+   width: 100%;
+}
+
+.bannar nav ul li a i{    
+  
+}
+.social-icon  li a i{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background: #cd0a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.social-icon  li a i:hover{
+    color: #cd0a2d;
+    background-color: #fff;
+    transition: .4s all ease-in-out;
+}
+.bannar-content{
+    text-align: center;
+    position: relative;
+}
+.bannar-content h1{
+    z-index: 99;
+    font-family: 'billy_ohio';
+    font-size: 75px;
+    color: #fff;
+}
+.bannar-content img{
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    bottom: -65%;
+    transform: translate(-50%, 65%);
+}
+
+/* tour pakage part start here */
+.tour{
+
+}
+
+.t_img{
+    position: relative;
+  
+
+}
+.t_img img{
+
+height: 100%;
+}
+.t_img::before{
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 0;
+    bottom: -9px;
+    left: -10px;
+    border-bottom: 150px solid #cd0a2d;
+    border-right: 150px solid transparent;
+}
+.t_img h1{
+    
+position: absolute;
+    
+bottom: 20px;
+    
+font-size: 50px !important;
+    
+left: 0px;
+    
+color: #fff;
+    
+font-family: 'Bebas Neue', cursive !important;
+}
+.t_img h1 strong{
+
+font-size: 35px;
+}
+.t_img  span{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+.tour h1{
+
+font-family: 'helvetica_lt_std';
+
+font-size: 30px;
+
+margin: 20px 0px;
+}
+.tour p{
+
+font-family: 'Lato', sans-serif;
+
+color: #676767;
+}
+/* tour and pakage part end here  */
+
+/* about company part start here  */
+.about_company{
+    position: relative;
+
+}
+.bg-moto img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 18%;
+    transform: translate(-50%, -40%);
+}
+.about_company .container-fluid{
+    --bs-gutter-x: 0 !important;
+}
+.left{
+    background: #cd0a2d;
+    padding: 40px 0px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.left h1{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+.left h3{
+    color: #fff;
+    font-family: 'helvetica_lt_std';
+}
+.left p{        
+    color: #c7c4c4;        
+    font-family: 'helvetica_lt_std';        
+    font-size: 14px;
+}
+.right{    
+    padding: 40px 20px;        
+    background: #fff;        
+    width: 50%;        
+    margin-top: 40px;
+}
+.right img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #999999;
+}
+.right h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.right h1 span{
+
+font-size: 20px;
+
+color: #a4a4a4;
+}
+.right p{
+    font-family: 'Lato', sans-serif;
+}
+.title{
+
+text-align: center;
+
+margin: 20px 0px;
+}
+.title h1{
+
+font-family: 'Bebas Neue', cursive !important;
+
+font-size: 60px;
+}
+.title h1 span{
+    color: red;
+
+}
+.title p{
+
+color: #5c5c5c;
+
+font-family: 'Lato', sans-serif;
+
+font-weight: 600;
+}
+
+
+/* about company part end here  */
+
+
+/* testimonial part start here */
+.testimonial{
+
+background: #fff;
+
+padding: 30px;
+
+border-radius: 20px;
+
+text-align: center;
+}
+.testimonial img{
+
+height: 80px;
+
+width: 80px;
+
+border-radius: 50%;
+
+MARGIN-RIGHT: 30px;
+}
+.testimonial h1{
+
+text-transform: capitalize;
+
+font-family: 'Bebas Neue', cursive !important;
+}
+.desi{
+    
+text-align: left;
+    
+text-transform: capitalize;
+}
+.testimonial p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.rider_img img{
+    margin-left: 35px;
+    height: 50vh !important;
+}
+/* testimonial part end here  */
+
+/* company feature part start here  */
+.feature{
+    background-image: url(../images/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000e6;
+    color: #fff;
+}
+.c_title{
+
+}
+.c_title h1{
+
+}.c_title p{
+
+}
+.c_left{
+
+}
+.c_left h2,.c_right h2{
+
+}
+.c_left h2 span,.c_right h2 span{
+
+}
+.c_left h3,.c_right h3{
+
+}
+.c_right{
+
+}
+/* company featuer part end here  */

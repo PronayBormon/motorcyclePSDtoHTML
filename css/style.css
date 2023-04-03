@@ -318,14 +318,32 @@ text-transform: capitalize;
 .c_left{
 
 }
+.c_left h1,.c_right h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive !important;
+    font-weight: 600;
+}
 .c_left h2,.c_right h2{
 
+font-family: 'Bebas Neue', cursive !important;
+
+font-size: 40px;
+}
+.c_left h1 span,.c_right h1 span{
+
+font-size: 30px;
 }
 .c_left h2 span,.c_right h2 span{
 
+font-family: 'Bebas Neue', cursive !important;
+
+font-size: 25px;
 }
 .c_left h3,.c_right h3{
 
+font-family: 'Bebas Neue', cursive !important;
+
+font-size: 28px;
 }
 .c_right{
 

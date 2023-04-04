@@ -307,6 +307,13 @@ text-transform: capitalize;
     background-color: #000000e6;
     color: #fff;
     padding-top: 50px;
+    position: relative;
+}
+.feature_img{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    width: 18%;
 }
 .c_title{
 
@@ -323,6 +330,10 @@ margin-bottom: 40px;
 .c_left{
 
 background: #f60631a8;
+
+height: 60vh;
+
+padding: 80px;
 }
 .c_left h1,.c_right h1{
     font-size: 60px;
@@ -353,9 +364,9 @@ font-size: 28px;
 }
 .c_right{
 
+height: 60vh;
+
+padding: 80px;
 }
-.c_left p,.c_right p{
-    
-padding: 0px 60px;
-}
+.c_left p,.c_right p{text-align: center;}
 /* company featuer part end here  */

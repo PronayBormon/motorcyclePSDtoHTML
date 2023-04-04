@@ -306,17 +306,23 @@ text-transform: capitalize;
     background-repeat: no-repeat;
     background-color: #000000e6;
     color: #fff;
+    padding-top: 50px;
 }
 .c_title{
 
+margin-bottom: 40px;
 }
 .c_title h1{
 
 }.c_title p{
 
+/* margin-top: 25px; */
+
+margin-bottom: 40px;
 }
 .c_left{
 
+background: #f60631a8;
 }
 .c_left h1,.c_right h1{
     font-size: 60px;
@@ -347,5 +353,9 @@ font-size: 28px;
 }
 .c_right{
 
+}
+.c_left p,.c_right p{
+    
+padding: 0px 60px;
 }
 /* company featuer part end here  */

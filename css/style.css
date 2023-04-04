@@ -389,6 +389,14 @@ padding: 80px;
     background-size: cover;
     z-index: 0;
 }
+.st_journey i{
+    position: absolute;
+    color: red;
+    left: 50%;
+    bottom: -10%;
+    transform: translate(-50%, 10%);
+    font-size: 100px;
+}
 .st_journey::before{
     content: "";
     position: absolute;
@@ -409,7 +417,7 @@ padding: 80px;
     
 font-family: 'helvetica_lt_std';
     
-font-size: 30px;
+font-size: 22px;
 }
 .contact_section i{
 
@@ -427,3 +435,45 @@ padding: 0px;
 
 }
 /* contact section end here  */
+
+/* social part start here  */
+.social{
+
+}
+.social ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.social ul li{
+
+height: 50px;
+
+width: 50px;
+
+border: 2px solid #efdd66;
+
+border-radius: 50%;
+
+font-size: 34px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: 0px 10px;
+}
+.social ul li a{
+    
+text-decoration: none;
+    
+color: #353535;
+}
+/* social part end here  */

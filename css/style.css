@@ -1,4 +1,5 @@
 body{
+
     background-color: #ededed63 !important;
 
 }
@@ -12,6 +13,11 @@ body{
     z-index: 0;
     margin-bottom: 150px;
 }
+/* .navbar{
+    position: sticky !important;
+    top: 0px;
+
+} */
 .bannar::before{
     content: "";
     position: absolute;
@@ -391,7 +397,7 @@ padding: 80px;
 }
 .st_journey i{
     position: absolute;
-    color: red;
+    color: #cd0a2d;
     left: 50%;
     bottom: -10%;
     transform: translate(-50%, 10%);
@@ -477,3 +483,26 @@ text-decoration: none;
 color: #353535;
 }
 /* social part end here  */
+
+/* footer part start here  */
+.footer{
+
+height: 100px;
+
+background: #cd0a2d;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.footer p{
+    
+font-family: 'Lato', sans-serif;
+    
+color: #fff;
+    
+margin-top: 30px;
+}
+/* footer part end here  */

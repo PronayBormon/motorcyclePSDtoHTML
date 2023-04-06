@@ -29,7 +29,7 @@
   <body>
     
     <!-- Navbar start here  -->
-    <section class="bannar">
+    <section class="bannar" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -42,7 +42,7 @@
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                               <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                                <a class="nav-link " aria-current="page" href="#foot">Home</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="#" >Destination</a>
@@ -456,6 +456,18 @@
     </div>
     <!-- social section end here  -->
 
+    <!-- footer part start here  -->
+    <section class="footer mt-4" id="foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <p class="text-center">Copyright 2020, All Right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part end here  -->
+
 
 
 
@@ -471,6 +483,8 @@
           loop:true,
           margin:10,
           nav:true,
+          autoplay:true,
+          autoplayTimeout:1000,
           responsive:{
               0:{
                   items:1
